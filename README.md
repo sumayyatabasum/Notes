@@ -1,36 +1,189 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![Supabase](https://img.shields.io/badge/Supabase-Backend-green)
+![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## Getting Started
+# 🧠 Second Brain – AI-Powered Smart Notes App
 
-First, run the development server:
+Second Brain is a full-stack AI-powered notes application that allows users to create, manage, and interact with their notes using Google Gemini AI.
 
-```bash
+It combines structured note-taking with intelligent content assistance such as summarization, rewriting, and contextual Q&A.
+
+---
+
+## 🚀 Live Demo
+
+🔗 https://your-vercel-link.vercel.app
+
+---
+
+## ✨ Features
+
+- 🔐 Secure authentication (Supabase Auth)
+- 📝 Create, update, and delete notes
+- 📚 Auto-sorted notes (latest first)
+- 🤖 AI-powered assistant (Google Gemini)
+  - Summarize notes
+  - Improve writing
+  - Generate optimized versions
+  - Ask contextual questions
+- ⚡ Real-time AI responses via server-side API route
+- 🎨 Clean responsive UI (Next.js + Tailwind CSS)
+
+---
+
+## 🏗️ Tech Stack
+
+### Frontend
+
+- Next.js (App Router)
+- React (Client Components)
+- Tailwind CSS
+- Framer Motion
+
+### Backend
+
+- Next.js API Routes
+- Google Gemini API (v1)
+- Supabase (Postgres + Auth)
+
+### Deployment
+
+- Vercel (Serverless Functions)
+- Supabase Cloud
+
+---
+
+## 🧠 Architecture
+
+# 🧠 Second Brain – AI-Powered Smart Notes App
+
+Second Brain is a full-stack AI-powered notes application that allows users to create, manage, and interact with their notes using Google Gemini AI.
+
+It combines structured note-taking with intelligent content assistance such as summarization, rewriting, and contextual Q&A.
+
+---
+
+## 🚀 Live Demo
+
+🔗 https://your-vercel-link.vercel.app
+
+---
+
+## ✨ Features
+
+- 🔐 Secure authentication (Supabase Auth)
+- 📝 Create, update, and delete notes
+- 📚 Auto-sorted notes (latest first)
+- 🤖 AI-powered assistant (Google Gemini)
+  - Summarize notes
+  - Improve writing
+  - Generate optimized versions
+  - Ask contextual questions
+- ⚡ Real-time AI responses via server-side API route
+- 🎨 Clean responsive UI (Next.js + Tailwind CSS)
+
+---
+
+## 🏗️ Tech Stack
+
+### Frontend
+
+- Next.js (App Router)
+- React (Client Components)
+- Tailwind CSS
+- Framer Motion
+
+### Backend
+
+- Next.js API Routes
+- Google Gemini API (v1)
+- Supabase (Postgres + Auth)
+
+### Deployment
+
+- Vercel (Serverless Functions)
+- Supabase Cloud
+
+---
+
+## 🧠 Architecture
+
+Frontend (Next.js)
+↓
+API Route (/api/ai)
+↓
+Google Gemini API
+↓
+Response returned to UI
+
+## Notes Storage:
+
+- Supabase Postgres + Auth
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env.local` file:
+GEMINI_API_KEY=your_gemini_key
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+⚠️ Do NOT commit `.env.local`
+
+---
+
+## 🛠️ Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/second-brain.git
+
+cd second-brain
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📸 Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+### Dashboard
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Dashboard](Dashboard.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### AI Interaction
 
-## Deploy on Vercel
+![AI-Response](AI.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎯 Why This Project?
+
+This project demonstrates:
+
+- Full-stack architecture using modern React patterns
+- Secure authentication and database integration
+- Server-side API proxy for AI model integration
+- Environment variable management
+- Clean UI/UX design with responsive layout
+
+---
+
+## 🔮 Future Improvements
+
+- Flashcard generation mode
+- Interview question generator
+- Note tagging and search
+- Markdown support
+- AI writing modes dropdown
+
+---
+
+## 📄 License
+
+MIT License
