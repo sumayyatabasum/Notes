@@ -13,7 +13,7 @@ It combines structured note-taking with intelligent content assistance such as s
 
 ## 🚀 Live Demo
 
-🔗 https://your-vercel-link.vercel.app
+🔗 [Click to view live](https://notes-izopt8u34-sumayyas-projects-6c5328d0.vercel.app/)
 
 ---
 
