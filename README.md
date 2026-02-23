@@ -152,11 +152,11 @@ http://localhost:3000
 
 ### Dashboard
 
-![Dashboard](Dashboard.png)
+![Dashboard](images/Dashboard.png)
 
 ### AI Interaction
 
-![AI-Response](AI.png)
+![AI-Response](images/AI.png)
 
 ---
 
