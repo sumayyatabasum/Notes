@@ -54,8 +54,6 @@ It combines structured note-taking with intelligent content assistance such as s
 
 ---
 
-## 🧠 Architecture
-
 # 🧠 Second Brain – AI-Powered Smart Notes App
 
 Second Brain is a full-stack AI-powered notes application that allows users to create, manage, and interact with their notes using Google Gemini AI.
@@ -109,13 +107,13 @@ It combines structured note-taking with intelligent content assistance such as s
 
 ## 🧠 Architecture
 
-Frontend (Next.js)
-↓
-API Route (/api/ai)
-↓
-Google Gemini API
-↓
-Response returned to UI
+### AI Flow
+
+User → Frontend (Next.js) → /api/ai → Gemini API → Response → UI
+
+### Notes System
+
+User → Supabase Auth → Postgres Database → UI
 
 ## Notes Storage:
 
