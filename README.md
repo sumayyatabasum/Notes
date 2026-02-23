@@ -123,10 +123,10 @@ User → Supabase Auth → Postgres Database → UI
 
 ## 🔑 Environment Variables
 
-Create a `.env.local` file:
-GEMINI_API_KEY=your_gemini_key
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+- Create a `.env.local` file:
+- GEMINI_API_KEY=your_gemini_key
+- NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+- NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 ⚠️ Do NOT commit `.env.local`
 
